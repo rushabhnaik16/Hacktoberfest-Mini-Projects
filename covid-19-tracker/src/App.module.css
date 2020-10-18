@@ -1,0 +1,51 @@
+body {
+    background-color: #f6f6f6;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap');
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #202020;
+    font-family: monospace;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width:770px) {
+    .container {
+        margin: 0 10%;
+    }
+}
+
+.imageLogo {
+    width: 70px;
+}
+
+.titleDiv {
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    margin-top: 20px;
+}
+
+.logoTitle { 
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 80px;
+    color:#f6f6f6;
+    font-weight: 800 ;
+    
+}
+
+.logoTitleSmall { 
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 50px;
+    color:#f6f6f6;
+    font-weight: 700 ;
+    margin-bottom: 15px;
+}

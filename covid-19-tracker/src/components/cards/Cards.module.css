@@ -1,0 +1,85 @@
+.container {
+    margin: 50px 0;
+    
+}
+
+.card {
+    margin: 0 2% !important;
+    width: 20rem;
+}
+
+.infected {
+    border-bottom: 10px solid rgba(0,0,255,0.5);
+}
+
+.recovered {
+    border-bottom: 10px solid rgba(0,255,0,0.5);
+}
+
+.deaths {
+    border-bottom: 10px solid rgba(255,0,0,0.5);
+}
+
+@media (max-width:770px) {
+    .card {
+        margin: 0 2% !important;
+    }
+}
+
+.textSecondary {
+    color: #fff;
+    font-size: 20px;
+    align-self: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    
+}
+
+.cardImage  {
+    width: 70px;
+    height: 70px;
+    align-self: center;
+}
+
+.cardImageDiv {
+    height:80;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.cardTitle {
+    font-family: 'Nunito Sans', 'sans-serif';
+    font-size: 14px;
+    color: #eee;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.numbers {
+    font-family: 'Nunito Sans', 'sans-serif';
+    font-size: 38px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    color: #eee;
+    align-self: center;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.updateDate {
+    font-family: 'Nunito Sans', 'sans-serif';
+    font-size: 15px;
+    color: #ababab;
+    margin-top: 10px;
+}
+
+.description {
+    font-family: 'Nunito Sans', 'sans-serif';
+    font-size: 15px;
+    color: #ababab;
+    
+}
